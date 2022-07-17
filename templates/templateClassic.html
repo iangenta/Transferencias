@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <h1>Tus transaferencias </h1>
+    <div class="container">
+        <div class="heading">
+            <h1>{{ nombre }}</h1>
+        </div>
+        <div class="information">
+
+            <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">Tipo de transaccion</th>
+                <th scope="col">Monto</th>
+                <th scope="col">Fecha</th>
+                <th scope="col">Estado</th>
+                <th scope="col">Comentario</th>                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[0]).numero}}</th>
+                <td>{{(transacciones.transacciones[0]).tipo}}</td>
+                <td>{{(transacciones.transacciones[0]).monto}}</td>
+                <td>{{(transacciones.transacciones[0]).fecha}}</td>
+                <td>{{(transacciones.transacciones[0]).estado}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[1]).numero}}</th>
+                <td>{{(transacciones.transacciones[1]).tipo}}</td>
+                <td>{{(transacciones.transacciones[1]).monto}}</td>
+                <td>{{(transacciones.transacciones[1]).fecha}}</td>
+                <td>{{(transacciones.transacciones[1]).estado}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[2]).numero}}</th>
+                <td>{{(transacciones.transacciones[2]).tipo}}</td>
+                <td>{{(transacciones.transacciones[2]).monto}}</td>
+                <td>{{(transacciones.transacciones[2]).fecha}}</td>
+                <td>{{(transacciones.transacciones[2]).estado}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[3]).numero}}</th>
+                <td>{{(transacciones.transacciones[3]).tipo}}</td>
+                <td>{{(transacciones.transacciones[3]).monto}}</td>
+                <td>{{(transacciones.transacciones[3]).fecha}}</td>
+                <td>{{(transacciones.transacciones[3]).estado}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[4]).numero}}</th>
+                <td>{{(transacciones.transacciones[4]).tipo}}</td>
+                <td>{{(transacciones.transacciones[4]).monto}}</td>
+                <td>{{(transacciones.transacciones[4]).fecha}}</td>
+                <td>{{(transacciones.transacciones[4]).estado}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[5]).numero}}</th>
+                <td>{{(transacciones.transacciones[5]).tipo}}</td>
+                <td>{{(transacciones.transacciones[5]).monto}}</td>
+                <td>{{(transacciones.transacciones[5]).fecha}}</td>
+                <td>{{(transacciones.transacciones[5]).estado}}</td>
+                <td>{{ comentario}}</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[6]).numero}}</th>
+                <td>{{(transacciones.transacciones[6]).tipo}}</td>
+                <td>{{(transacciones.transacciones[6]).monto}}</td>
+                <td>{{(transacciones.transacciones[6]).fecha}}</td>
+                <td>{{(transacciones.transacciones[6]).estado}}</td>
+                <td>{{ comentario}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[7]).numero}}</th>
+                <td>{{(transacciones.transacciones[7]).tipo}}</td>
+                <td>{{(transacciones.transacciones[7]).monto}}</td>
+                <td>{{(transacciones.transacciones[7]).fecha}}</td>
+                <td>{{(transacciones.transacciones[7]).estado}}</td>
+                <td>{{ comentario}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[8]).numero}}</th>
+                <td>{{(transacciones.transacciones[8]).tipo}}</td>
+                <td>{{(transacciones.transacciones[8]).monto}}</td>
+                <td>{{(transacciones.transacciones[8]).fecha}}</td>
+                <td>{{(transacciones.transacciones[8]).estado}}</td>
+                <td>{{ comentario}}</td>
+              </tr>
+              <tr>
+                <th scope="row">{{(transacciones.transacciones[9]).numero}}</th>
+                <td>{{(transacciones.transacciones[9]).tipo}}</td>
+                <td>{{(transacciones.transacciones[9]).monto}}</td>
+                <td>{{(transacciones.transacciones[9]).fecha}}</td>
+                <td>{{(transacciones.transacciones[9]).estado}}</td>
+                <td>
+                  <a href ='../html/comentario.html'>
+                  <button name="button">Click me</button>
+                  </a>
+                </td>
+
+              </tr>
+              
+            </tbody>
+          </table>
+
+        </div>
+    </div>
+</body>
+</html>
